@@ -1,0 +1,1146 @@
+<?xml version="1.0"?>
+<soap-env:envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://api.bronto.com/v4">
+    <soap-env:header>
+        <ns1:sessionheader>
+            <sessionid>54242646-c61e-4d8a-9fbe-59b8efb2ad8e</sessionid>
+        </ns1:sessionheader>
+    </soap-env:header>
+    <soap-env:body>
+        <ns1:adddeliveries>
+            <deliveries>
+                <start>2021-12-11T00:11:54+00:00</start>
+                <messageid>0bda03eb00000000000000000000001e4162</messageid>
+                <type>transactional</type>
+                <fromemail>acehardware@email.acehardware.com</fromemail>
+                <fromname>Ace Hardware</fromname>
+                <replyemail>acehardware@email.acehardware.com</replyemail>
+                <messageruleid>0bda03f900000000000000000000000011bc</messageruleid>
+                <recipients>
+                    <id>56a1cbcb-2675-4c26-9af2-2410773c907b</id>
+                    <type>contact</type>
+                </recipients>
+                <fields>
+                    <name>first_name</name>
+                    <type>html</type>
+                    <content>Edward</content>
+                </fields>
+                <fields>
+                    <name>last_name</name>
+                    <type>html</type>
+                    <content>McLellan</content>
+                </fields>
+                <fields>
+                    <name>mfg_catalog_name</name>
+                    <type>html</type>
+                    <content>Ace Hardware</content>
+                </fields>
+                <fields>
+                    <name>catalog_domain</name>
+                    <type>html</type>
+                    <content>http://www.acehardware.com/</content>
+                </fields>
+                <fields>
+                    <name>catalog_logo</name>
+                    <type>html</type>
+                    <content>/media/mfg/16220/catalog_image/logo_main_16220_ACE.png</content>
+                </fields>
+                <fields>
+                    <name>order_id</name>
+                    <type>html</type>
+                    <content>28375922-28376045 (180870601)</content>
+                </fields>
+                <fields>
+                    <name>mfg_id</name>
+                    <type>html</type>
+                    <content>16220</content>
+                </fields>
+                <fields>
+                    <name>catalog_id</name>
+                    <type>html</type>
+                    <content>0</content>
+                </fields>
+                <fields>
+                    <name>lang_id</name>
+                    <type>html</type>
+                    <content>1</content>
+                </fields>
+                <fields>
+                    <name>help_url</name>
+                    <type>html</type>
+                    <content>http://www.shopatron.com/help</content>
+                </fields>
+                <fields>
+                    <name>order_items</name>
+                    <type>html</type>
+                    <content>Qty Part # Name Total
+                        1 8063503 YETI Rambler 14 oz Seafoam BPA Free Mug with MagSlider Lid 29.99
+                        2 8063727 YETI Rambler Multicolored BPA Free Slider Lid 17.98
+                        2 8063728 YETI Rambler Multicolored BPA Free Slider Lid 17.98
+                        1 9793100 Delivery Fee 0.00
+                        Attended Delivery: YES - You must be present for delivery signature., Expected Delivery Date:
+                        Wednesday, August 4, unless contacted by store.
+                        1 9793100 Delivery Fee 0.00
+                        Attended Delivery: YES - You must be present for delivery signature., Expected Delivery Date:
+                        Wednesday, August 4, unless contacted by store.
+                        1 9793100 Delivery Fee 0.00
+                        Attended Delivery: YES - You must be present for delivery signature., Expected Delivery Date:
+                        Wednesday, August 4, unless contacted by store.
+
+                        Estimated Shipping &amp; Handling 0.00
+                        Estimated Order Total 71.39
+                    </content>
+                </fields>
+                <fields>
+                    <name>item_name_1</name>
+                    <type>html</type>
+                    <content>YETI Rambler 14 oz Seafoam BPA Free Mug with MagSlider Lid</content>
+                </fields>
+                <fields>
+                    <name>item_image_1</name>
+                    <type>html</type>
+                    <content>/media/shopatron/misc/spacer_wht.gif</content>
+                </fields>
+                <fields>
+                    <name>item_image_url_1</name>
+                    <type>html</type>
+                    <content>https://cdn-tp3.mozu.com/24645-37138/cms/37138/files/141424ab-1e3b-4e55-b4b4-13b5544b794c
+                    </content>
+                </fields>
+                <fields>
+                    <name>prod_url_1</name>
+                    <type>html</type>
+                    <content>https://shptrn.com/link/cc.php?m=16220&amp;c=0&amp;o=OrderReadyEmail&amp;l=http%3A%2F%2Fwww.acehardware.com%2F%3Futm_source%3D16220.0%26utm_medium%3Demail%26utm_campaign%3DOrderReadyEmail</content>
+                </fields>
+                <fields>
+                    <name>part_number_1</name>
+                    <type>html</type>
+                    <content>Part #: 8063503</content>
+                </fields>
+                <fields>
+                    <name>inventory_locator_name_1</name>
+                    <type>html</type>
+                    <content>NEW</content>
+                </fields>
+                <fields>
+                    <name>item_options_1</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_quantity_1</name>
+                    <type>html</type>
+                    <content>Qty: 1</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_1</name>
+                    <type>html</type>
+                    <content>29.99</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_wtax_1</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_unit_data_1</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_quantity_only_1</name>
+                    <type>html</type>
+                    <content>1</content>
+                </fields>
+                <fields>
+                    <name>item_partNum_only_1</name>
+                    <type>html</type>
+                    <content>8063503</content>
+                </fields>
+                <fields>
+                    <name>icd_ConfirmedPickupDate_1</name>
+                    <type>html</type>
+                    <content>Available for pickup today</content>
+                </fields>
+                <fields>
+                    <name>icd_Quantity_1</name>
+                    <type>html</type>
+                    <content>1</content>
+                </fields>
+                <fields>
+                    <name>icd_Sku_1</name>
+                    <type>html</type>
+                    <content>8063503</content>
+                </fields>
+                <fields>
+                    <name>icd_ispu_only_1</name>
+                    <type>html</type>
+                    <content>N</content>
+                </fields>
+                <fields>
+                    <name>icd_mfg_number_1</name>
+                    <type>html</type>
+                    <content>21071500595</content>
+                </fields>
+                <fields>
+                    <name>icd_upc_1</name>
+                    <type>html</type>
+                    <content>888830128596</content>
+                </fields>
+                <fields>
+                    <name>sku_1</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_name_2</name>
+                    <type>html</type>
+                    <content>YETI Rambler Multicolored BPA Free Slider Lid</content>
+                </fields>
+                <fields>
+                    <name>item_image_2</name>
+                    <type>html</type>
+                    <content>/media/shopatron/misc/spacer_wht.gif</content>
+                </fields>
+                <fields>
+                    <name>item_image_url_2</name>
+                    <type>html</type>
+                    <content>https://cdn-tp3.mozu.com/24645-37138/cms/37138/files/862fb512-0850-4c23-a188-69405e6ab23d
+                    </content>
+                </fields>
+                <fields>
+                    <name>prod_url_2</name>
+                    <type>html</type>
+                    <content>https://shptrn.com/link/cc.php?m=16220&amp;c=0&amp;o=OrderReadyEmail&amp;l=http%3A%2F%2Fwww.acehardware.com%2F%3Futm_source%3D16220.0%26utm_medium%3Demail%26utm_campaign%3DOrderReadyEmail</content>
+                </fields>
+                <fields>
+                    <name>part_number_2</name>
+                    <type>html</type>
+                    <content>Part #: 8063727</content>
+                </fields>
+                <fields>
+                    <name>inventory_locator_name_2</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_options_2</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_quantity_2</name>
+                    <type>html</type>
+                    <content>Qty: 2</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_2</name>
+                    <type>html</type>
+                    <content>17.98</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_wtax_2</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_unit_data_2</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_quantity_only_2</name>
+                    <type>html</type>
+                    <content>2</content>
+                </fields>
+                <fields>
+                    <name>item_partNum_only_2</name>
+                    <type>html</type>
+                    <content>8063727</content>
+                </fields>
+                <fields>
+                    <name>icd_Quantity_2</name>
+                    <type>html</type>
+                    <content>2</content>
+                </fields>
+                <fields>
+                    <name>icd_Sku_2</name>
+                    <type>html</type>
+                    <content>8063727</content>
+                </fields>
+                <fields>
+                    <name>icd_ispu_only_2</name>
+                    <type>html</type>
+                    <content>N</content>
+                </fields>
+                <fields>
+                    <name>icd_mfg_number_2</name>
+                    <type>html</type>
+                    <content>21071500449</content>
+                </fields>
+                <fields>
+                    <name>icd_upc_2</name>
+                    <type>html</type>
+                    <content>888830106068</content>
+                </fields>
+                <fields>
+                    <name>sku_2</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_name_3</name>
+                    <type>html</type>
+                    <content>YETI Rambler Multicolored BPA Free Slider Lid</content>
+                </fields>
+                <fields>
+                    <name>item_image_3</name>
+                    <type>html</type>
+                    <content>/media/shopatron/misc/spacer_wht.gif</content>
+                </fields>
+                <fields>
+                    <name>item_image_url_3</name>
+                    <type>html</type>
+                    <content>https://cdn-tp3.mozu.com/24645-37138/cms/37138/files/783ced6c-bc3a-4f69-a9a3-6861007464ad
+                    </content>
+                </fields>
+                <fields>
+                    <name>prod_url_3</name>
+                    <type>html</type>
+                    <content>https://shptrn.com/link/cc.php?m=16220&amp;c=0&amp;o=OrderReadyEmail&amp;l=http%3A%2F%2Fwww.acehardware.com%2F%3Futm_source%3D16220.0%26utm_medium%3Demail%26utm_campaign%3DOrderReadyEmail</content>
+                </fields>
+                <fields>
+                    <name>part_number_3</name>
+                    <type>html</type>
+                    <content>Part #: 8063728</content>
+                </fields>
+                <fields>
+                    <name>inventory_locator_name_3</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_options_3</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_quantity_3</name>
+                    <type>html</type>
+                    <content>Qty: 2</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_3</name>
+                    <type>html</type>
+                    <content>17.98</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_wtax_3</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_unit_data_3</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_quantity_only_3</name>
+                    <type>html</type>
+                    <content>2</content>
+                </fields>
+                <fields>
+                    <name>item_partNum_only_3</name>
+                    <type>html</type>
+                    <content>8063728</content>
+                </fields>
+                <fields>
+                    <name>icd_Quantity_3</name>
+                    <type>html</type>
+                    <content>2</content>
+                </fields>
+                <fields>
+                    <name>icd_Sku_3</name>
+                    <type>html</type>
+                    <content>8063728</content>
+                </fields>
+                <fields>
+                    <name>icd_ispu_only_3</name>
+                    <type>html</type>
+                    <content>N</content>
+                </fields>
+                <fields>
+                    <name>icd_mfg_number_3</name>
+                    <type>html</type>
+                    <content>21071500450</content>
+                </fields>
+                <fields>
+                    <name>icd_upc_3</name>
+                    <type>html</type>
+                    <content>888830106075</content>
+                </fields>
+                <fields>
+                    <name>sku_3</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_name_4</name>
+                    <type>html</type>
+                    <content>Delivery Fee</content>
+                </fields>
+                <fields>
+                    <name>item_image_4</name>
+                    <type>html</type>
+                    <content>/media/shopatron/misc/spacer_wht.gif</content>
+                </fields>
+                <fields>
+                    <name>item_image_url_4</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>prod_url_4</name>
+                    <type>html</type>
+                    <content>https://shptrn.com/link/cc.php?m=16220&amp;c=0&amp;o=OrderReadyEmail&amp;l=http%3A%2F%2Fwww.acehardware.com%2F%3Futm_source%3D16220.0%26utm_medium%3Demail%26utm_campaign%3DOrderReadyEmail</content>
+                </fields>
+                <fields>
+                    <name>part_number_4</name>
+                    <type>html</type>
+                    <content>Part #: 9793100</content>
+                </fields>
+                <fields>
+                    <name>inventory_locator_name_4</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_options_4</name>
+                    <type>html</type>
+                    <content>Attended Delivery: YES - You must be present for delivery signature.&lt;br /&gt;Expected
+                        Delivery Date: Wednesday&lt;br /&gt;August 4&lt;br /&gt;unless contacted by store.&lt;br /&gt;
+                    </content>
+                </fields>
+                <fields>
+                    <name>item_quantity_4</name>
+                    <type>html</type>
+                    <content>Qty: 1</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_4</name>
+                    <type>html</type>
+                    <content>0.00</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_wtax_4</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_unit_data_4</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_quantity_only_4</name>
+                    <type>html</type>
+                    <content>1</content>
+                </fields>
+                <fields>
+                    <name>item_partNum_only_4</name>
+                    <type>html</type>
+                    <content>9793100</content>
+                </fields>
+                <fields>
+                    <name>icd_attended_delivery_4</name>
+                    <type>html</type>
+                    <content>Attended Delivery YES - You must be present for delivery signature.</content>
+                </fields>
+                <fields>
+                    <name>icd_ispu_only_4</name>
+                    <type>html</type>
+                    <content>N</content>
+                </fields>
+                <fields>
+                    <name>icd_mfg_number_4</name>
+                    <type>html</type>
+                    <content>STD DELIVERY</content>
+                </fields>
+                <fields>
+                    <name>icd_upc_4</name>
+                    <type>html</type>
+                    <content>082901286271</content>
+                </fields>
+                <fields>
+                    <name>sku_4</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_name_5</name>
+                    <type>html</type>
+                    <content>Delivery Fee</content>
+                </fields>
+                <fields>
+                    <name>item_image_5</name>
+                    <type>html</type>
+                    <content>/media/shopatron/misc/spacer_wht.gif</content>
+                </fields>
+                <fields>
+                    <name>item_image_url_5</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>prod_url_5</name>
+                    <type>html</type>
+                    <content>https://shptrn.com/link/cc.php?m=16220&amp;c=0&amp;o=OrderReadyEmail&amp;l=http%3A%2F%2Fwww.acehardware.com%2F%3Futm_source%3D16220.0%26utm_medium%3Demail%26utm_campaign%3DOrderReadyEmail</content>
+                </fields>
+                <fields>
+                    <name>part_number_5</name>
+                    <type>html</type>
+                    <content>Part #: 9793100</content>
+                </fields>
+                <fields>
+                    <name>inventory_locator_name_5</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_options_5</name>
+                    <type>html</type>
+                    <content>Attended Delivery: YES - You must be present for delivery signature.&lt;br /&gt;Expected
+                        Delivery Date: Wednesday&lt;br /&gt;August 4&lt;br /&gt;unless contacted by store.&lt;br /&gt;
+                    </content>
+                </fields>
+                <fields>
+                    <name>item_quantity_5</name>
+                    <type>html</type>
+                    <content>Qty: 1</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_5</name>
+                    <type>html</type>
+                    <content>0.00</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_wtax_5</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_unit_data_5</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_quantity_only_5</name>
+                    <type>html</type>
+                    <content>1</content>
+                </fields>
+                <fields>
+                    <name>item_partNum_only_5</name>
+                    <type>html</type>
+                    <content>9793100</content>
+                </fields>
+                <fields>
+                    <name>icd_attended_delivery_5</name>
+                    <type>html</type>
+                    <content>Attended Delivery YES - You must be present for delivery signature.</content>
+                </fields>
+                <fields>
+                    <name>sku_5</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_name_6</name>
+                    <type>html</type>
+                    <content>Delivery Fee</content>
+                </fields>
+                <fields>
+                    <name>item_image_6</name>
+                    <type>html</type>
+                    <content>/media/shopatron/misc/spacer_wht.gif</content>
+                </fields>
+                <fields>
+                    <name>item_image_url_6</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>prod_url_6</name>
+                    <type>html</type>
+                    <content>https://shptrn.com/link/cc.php?m=16220&amp;c=0&amp;o=OrderReadyEmail&amp;l=http%3A%2F%2Fwww.acehardware.com%2F%3Futm_source%3D16220.0%26utm_medium%3Demail%26utm_campaign%3DOrderReadyEmail</content>
+                </fields>
+                <fields>
+                    <name>part_number_6</name>
+                    <type>html</type>
+                    <content>Part #: 9793100</content>
+                </fields>
+                <fields>
+                    <name>inventory_locator_name_6</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_options_6</name>
+                    <type>html</type>
+                    <content>Attended Delivery: YES - You must be present for delivery signature.&lt;br /&gt;Expected
+                        Delivery Date: Wednesday&lt;br /&gt;August 4&lt;br /&gt;unless contacted by store.&lt;br /&gt;
+                    </content>
+                </fields>
+                <fields>
+                    <name>item_quantity_6</name>
+                    <type>html</type>
+                    <content>Qty: 1</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_6</name>
+                    <type>html</type>
+                    <content>0.00</content>
+                </fields>
+                <fields>
+                    <name>item_subtotal_wtax_6</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_unit_data_6</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>item_quantity_only_6</name>
+                    <type>html</type>
+                    <content>1</content>
+                </fields>
+                <fields>
+                    <name>item_partNum_only_6</name>
+                    <type>html</type>
+                    <content>9793100</content>
+                </fields>
+                <fields>
+                    <name>icd_attended_delivery_6</name>
+                    <type>html</type>
+                    <content>Attended Delivery YES - You must be present for delivery signature.</content>
+                </fields>
+                <fields>
+                    <name>sku_6</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>mfg_catalog_phone</name>
+                    <type>html</type>
+                    <content>1-888-827-4223</content>
+                </fields>
+                <fields>
+                    <name>catalog_name</name>
+                    <type>html</type>
+                    <content>Ace Hardware</content>
+                </fields>
+                <fields>
+                    <name>days_remaining</name>
+                    <type>html</type>
+                    <content>-86 days</content>
+                </fields>
+                <fields>
+                    <name>fulfiller_address_html</name>
+                    <type>html</type>
+                    <content>16027-Ace Hardware of Richardson&lt;BR&gt;7989 Belt Line Rd&lt;BR&gt;Dallas, TX 75248&lt;BR&gt;US&lt;BR&gt;Phone:
+                        (972) 716-9587
+                    </content>
+                </fields>
+                <fields>
+                    <name>fulfiller_address</name>
+                    <type>html</type>
+                    <content>16027-Ace Hardware of Richardson
+                        7989 Belt Line Rd
+                        Dallas, TX 75248
+                        US
+                        Phone: (972) 716-9587
+                    </content>
+                </fields>
+                <fields>
+                    <name>fulfiller_google_link</name>
+                    <type>html</type>
+                    <content>http://maps.google.com/maps?q=7989+Belt+Line+Rd+++Dallas+TX+75248</content>
+                </fields>
+                <fields>
+                    <name>fulfiller_name</name>
+                    <type>html</type>
+                    <content>16027-Ace Hardware of Richardson</content>
+                </fields>
+                <fields>
+                    <name>gift_information</name>
+                    <type>html</type>
+                    <content>Gift message:</content>
+                </fields>
+                <fields>
+                    <name>local_pickup_contact</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>local_pickup_hours_html</name>
+                    <type>html</type>
+                    <content>Sunday-Saturday: Closed&lt;BR&gt;</content>
+                </fields>
+                <fields>
+                    <name>location_hours_html</name>
+                    <type>html</type>
+                    <content>Sunday: 10am-5pm&lt;BR&gt;Monday-Saturday: 8am-6pm&lt;BR&gt;</content>
+                </fields>
+                <fields>
+                    <name>local_pickup_instructions</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>local_pickup_phone</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>local_pickup_shipping_html</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>optional_marketing_html</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>order_tax</name>
+                    <type>html</type>
+                    <content>5.44</content>
+                </fields>
+                <fields>
+                    <name>order_total</name>
+                    <type>html</type>
+                    <content>71.39</content>
+                </fields>
+                <fields>
+                    <name>payment_method</name>
+                    <type>html</type>
+                    <content>&lt;div&gt; xxxxxxxxxxxx8222&lt;/div&gt;</content>
+                </fields>
+                <fields>
+                    <name>pickup_name</name>
+                    <type>html</type>
+                    <content>Edward McLellan</content>
+                </fields>
+                <fields>
+                    <name>recommend_buynow</name>
+                    <type>html</type>
+                    <content>Buy now</content>
+                </fields>
+                <fields>
+                    <name>restocking_fee_note_html</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>backup_email</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>fulfiller_email</name>
+                    <type>html</type>
+                    <content>COTH@acehardware.com</content>
+                </fields>
+                <fields>
+                    <name>fulfiller_phone</name>
+                    <type>html</type>
+                    <content>555-555-5555</content>
+                </fields>
+                <fields>
+                    <name>item_detail</name>
+                    <type>html</type>
+                    <content>Qty Part # Name Total
+                        1 8063503 YETI Rambler 14 oz Seafoam BPA Free Mug with MagSlider Lid 29.99
+                        2 8063727 YETI Rambler Multicolored BPA Free Slider Lid 17.98
+                        2 8063728 YETI Rambler Multicolored BPA Free Slider Lid 17.98
+                        1 9793100 Delivery Fee 0.00
+                        Attended Delivery: YES - You must be present for delivery signature., Expected Delivery Date:
+                        Wednesday, August 4, unless contacted by store.
+                        1 9793100 Delivery Fee 0.00
+                        Attended Delivery: YES - You must be present for delivery signature., Expected Delivery Date:
+                        Wednesday, August 4, unless contacted by store.
+                        1 9793100 Delivery Fee 0.00
+                        Attended Delivery: YES - You must be present for delivery signature., Expected Delivery Date:
+                        Wednesday, August 4, unless contacted by store.
+
+                        Tax 5.44
+                        Estimated Shipping &amp; Handling 0.00
+                        Estimated Order Total 71.39
+                    </content>
+                </fields>
+                <fields>
+                    <name>local_pickup_hours</name>
+                    <type>html</type>
+                    <content>Sunday-Saturday: Closed
+                    </content>
+                </fields>
+                <fields>
+                    <name>location_hours</name>
+                    <type>html</type>
+                    <content>Sunday: 10am-5pm
+                        Monday-Saturday: 8am-6pm
+                    </content>
+                </fields>
+                <fields>
+                    <name>local_pickup_shipping</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>location_in_store</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>location_name</name>
+                    <type>html</type>
+                    <content>16027-Ace Hardware of Richardson</content>
+                </fields>
+                <fields>
+                    <name>optional_marketing</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>order_detail</name>
+                    <type>html</type>
+                    <content>Qty Part # Name Total
+                        1 8063503 YETI Rambler 14 oz Seafoam BPA Free Mug with MagSlider Lid 29.99
+                        2 8063727 YETI Rambler Multicolored BPA Free Slider Lid 17.98
+                        2 8063728 YETI Rambler Multicolored BPA Free Slider Lid 17.98
+                        1 9793100 Delivery Fee 0.00
+                        Attended Delivery: YES - You must be present for delivery signature., Expected Delivery Date:
+                        Wednesday, August 4, unless contacted by store.
+                        1 9793100 Delivery Fee 0.00
+                        Attended Delivery: YES - You must be present for delivery signature., Expected Delivery Date:
+                        Wednesday, August 4, unless contacted by store.
+                        1 9793100 Delivery Fee 0.00
+                        Attended Delivery: YES - You must be present for delivery signature., Expected Delivery Date:
+                        Wednesday, August 4, unless contacted by store.
+
+                        Tax 5.44
+                        Estimated Shipping &amp; Handling 0.00
+                        Estimated Order Total 71.39
+                    </content>
+                </fields>
+                <fields>
+                    <name>restocking_fee_note</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>mfg_email</name>
+                    <type>html</type>
+                    <content>acehardware@email.acehardware.com</content>
+                </fields>
+                <fields>
+                    <name>mfg_phone</name>
+                    <type>html</type>
+                    <content>1-888-827-4223</content>
+                </fields>
+                <fields>
+                    <name>admin_email</name>
+                    <type>html</type>
+                    <content>support@shopatron.com</content>
+                </fields>
+                <fields>
+                    <name>tax_breakdown</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>order_date</name>
+                    <type>html</type>
+                    <content>2021-07-28</content>
+                </fields>
+                <fields>
+                    <name>order_subtotal</name>
+                    <type>html</type>
+                    <content>65.95</content>
+                </fields>
+                <fields>
+                    <name>order_shipping</name>
+                    <type>html</type>
+                    <content>0.00</content>
+                </fields>
+                <fields>
+                    <name>ocd_EstimatedAceRewards</name>
+                    <type>html</type>
+                    <content>659</content>
+                </fields>
+                <fields>
+                    <name>ocd_TotalSavings</name>
+                    <type>html</type>
+                    <content>You Saved: 25</content>
+                </fields>
+                <fields>
+                    <name>ocd_billing_addressLine1</name>
+                    <type>html</type>
+                    <content>10220 PANTHER RIDGE TRL</content>
+                </fields>
+                <fields>
+                    <name>ocd_billing_city</name>
+                    <type>html</type>
+                    <content>DALLAS</content>
+                </fields>
+                <fields>
+                    <name>ocd_billing_countryCode</name>
+                    <type>html</type>
+                    <content>US</content>
+                </fields>
+                <fields>
+                    <name>ocd_billing_firstName</name>
+                    <type>html</type>
+                    <content>Edward</content>
+                </fields>
+                <fields>
+                    <name>ocd_billing_lastName</name>
+                    <type>html</type>
+                    <content>McLellan</content>
+                </fields>
+                <fields>
+                    <name>ocd_billing_phone</name>
+                    <type>html</type>
+                    <content>(214) 802-3598</content>
+                </fields>
+                <fields>
+                    <name>ocd_billing_postalCode</name>
+                    <type>html</type>
+                    <content>75243-2545</content>
+                </fields>
+                <fields>
+                    <name>ocd_billing_state</name>
+                    <type>html</type>
+                    <content>TX</content>
+                </fields>
+                <fields>
+                    <name>ocd_child_orderid</name>
+                    <type>html</type>
+                    <content>28376045</content>
+                </fields>
+                <fields>
+                    <name>ocd_curbside</name>
+                    <type>html</type>
+                    <content>1</content>
+                </fields>
+                <fields>
+                    <name>ocd_customer_email</name>
+                    <type>html</type>
+                    <content>wordbird711@swbell.net</content>
+                </fields>
+                <fields>
+                    <name>ocd_customer_firstName</name>
+                    <type>html</type>
+                    <content>Edward</content>
+                </fields>
+                <fields>
+                    <name>ocd_customer_lastName</name>
+                    <type>html</type>
+                    <content>McLellan</content>
+                </fields>
+                <fields>
+                    <name>ocd_customer_name</name>
+                    <type>html</type>
+                    <content>Edward McLellan</content>
+                </fields>
+                <fields>
+                    <name>ocd_customer_phone1</name>
+                    <type>html</type>
+                    <content>(214) 802-3598</content>
+                </fields>
+                <fields>
+                    <name>ocd_delAddHead</name>
+                    <type>html</type>
+                    <content>Delivery Address</content>
+                </fields>
+                <fields>
+                    <name>ocd_deliver_to_address1</name>
+                    <type>html</type>
+                    <content>10220 PANTHER RIDGE TRL</content>
+                </fields>
+                <fields>
+                    <name>ocd_deliver_to_address2</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>ocd_deliver_to_city</name>
+                    <type>html</type>
+                    <content>DALLAS</content>
+                </fields>
+                <fields>
+                    <name>ocd_deliver_to_country</name>
+                    <type>html</type>
+                    <content>US</content>
+                </fields>
+                <fields>
+                    <name>ocd_deliver_to_name</name>
+                    <type>html</type>
+                    <content>Edward McLellan</content>
+                </fields>
+                <fields>
+                    <name>ocd_deliver_to_phone</name>
+                    <type>html</type>
+                    <content>(214) 802-3598</content>
+                </fields>
+                <fields>
+                    <name>ocd_deliver_to_state</name>
+                    <type>html</type>
+                    <content>TX</content>
+                </fields>
+                <fields>
+                    <name>ocd_deliver_to_zip</name>
+                    <type>html</type>
+                    <content>75243-2545</content>
+                </fields>
+                <fields>
+                    <name>ocd_deliveryAddrData</name>
+                    <type>html</type>
+                    <content>10220 PANTHER RIDGE TRL&lt;br&gt;DALLAS, TX 75243-2545&lt;br&gt;(214) 802-3598</content>
+                </fields>
+                <fields>
+                    <name>ocd_deliveryDate</name>
+                    <type>html</type>
+                    <content>Wednesday, August 4</content>
+                </fields>
+                <fields>
+                    <name>ocd_deliveryDateHeader</name>
+                    <type>html</type>
+                    <content>Delivery Date:</content>
+                </fields>
+                <fields>
+                    <name>ocd_deliveryDateShort</name>
+                    <type>html</type>
+                    <content>Wed, Aug 4</content>
+                </fields>
+                <fields>
+                    <name>ocd_fulfillComplete</name>
+                    <type>html</type>
+                    <content>Delivery Complete</content>
+                </fields>
+                <fields>
+                    <name>ocd_fulfillType</name>
+                    <type>html</type>
+                    <content>Delivery Items</content>
+                </fields>
+                <fields>
+                    <name>ocd_icon</name>
+                    <type>html</type>
+                    <content>http://www.acehardware.com/resources/images//truck.jpg</content>
+                </fields>
+                <fields>
+                    <name>ocd_order_date</name>
+                    <type>html</type>
+                    <content>Jul 28, 2021</content>
+                </fields>
+                <fields>
+                    <name>ocd_order_date_short</name>
+                    <type>html</type>
+                    <content>07/28/21</content>
+                </fields>
+                <fields>
+                    <name>ocd_order_lookup_key</name>
+                    <type>html</type>
+                    <content>
+                        MjgzNzU5MjIlN0MxMjAxZjViZjQ1MWY4MjAwMDE2ZDI3NjEwMDAwNjA0NSU3Q3dvcmRiaXJkNzExJTQwc3diZWxsLm5ldA==
+                    </content>
+                </fields>
+                <fields>
+                    <name>ocd_parent_orderid</name>
+                    <type>html</type>
+                    <content>28375922</content>
+                </fields>
+                <fields>
+                    <name>ocd_pickupCSS</name>
+                    <type>html</type>
+                    <content>style="display: none"</content>
+                </fields>
+                <fields>
+                    <name>ocd_pickup_instruction</name>
+                    <type>html</type>
+                    <content>front of the store</content>
+                </fields>
+                <fields>
+                    <name>ocd_root_domain</name>
+                    <type>html</type>
+                    <content>https://www.acehardware.com</content>
+                </fields>
+                <fields>
+                    <name>ocd_storeInfo</name>
+                    <type>html</type>
+                    <content>Delivery Store</content>
+                </fields>
+                <fields>
+                    <name>ocd_store_address1</name>
+                    <type>html</type>
+                    <content>7989 Belt Line Rd</content>
+                </fields>
+                <fields>
+                    <name>ocd_store_address4</name>
+                    <type>html</type>
+                    <content></content>
+                </fields>
+                <fields>
+                    <name>ocd_store_addressType</name>
+                    <type>html</type>
+                    <content>Commercial</content>
+                </fields>
+                <fields>
+                    <name>ocd_store_cityOrTown</name>
+                    <type>html</type>
+                    <content>Dallas</content>
+                </fields>
+                <fields>
+                    <name>ocd_store_countryCode</name>
+                    <type>html</type>
+                    <content>US</content>
+                </fields>
+                <fields>
+                    <name>ocd_store_formattedPhone</name>
+                    <type>html</type>
+                    <content>(972) 716-9587</content>
+                </fields>
+                <fields>
+                    <name>ocd_store_name</name>
+                    <type>html</type>
+                    <content>Ace Hardware of Richardson</content>
+                </fields>
+                <fields>
+                    <name>ocd_store_phone</name>
+                    <type>html</type>
+                    <content>9727169587</content>
+                </fields>
+                <fields>
+                    <name>ocd_store_postalOrZipCode</name>
+                    <type>html</type>
+                    <content>75248-5734</content>
+                </fields>
+                <fields>
+                    <name>ocd_store_stateOrProvince</name>
+                    <type>html</type>
+                    <content>TX</content>
+                </fields>
+                <fields>
+                    <name>ocd_text</name>
+                    <type>html</type>
+                    <content>delivered.</content>
+                </fields>
+                <fields>
+                    <name>shopatron_order_id</name>
+                    <type>html</type>
+                    <content>180870601</content>
+                </fields>
+            </deliveries>
+        </ns1:adddeliveries>
+    </soap-env:body>
+</soap-env:envelope>

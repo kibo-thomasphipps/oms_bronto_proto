@@ -1,0 +1,16 @@
+text before mfg_catalog_name: %%#mfg_catalog_name%% 
+    order_date:%%#order_date%% 
+        text after
+                        <!--{dynamic_code}-->
+                    <!--{loop}-->
+                    text in loop start 
+                    item_name_:%%#item_name_#%%
+                        part_number_:%%#part_number_#%%
+                            text in loop end 
+                      <!--{/loop}-->
+                    <!--{/dynamic_code}-->
+
+text after loop
+
+                    order_date:%%#order_date%%  
+                        end text

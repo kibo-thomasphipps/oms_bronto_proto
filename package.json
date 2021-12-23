@@ -1,0 +1,25 @@
+{
+  "name": "oms_bronto_proto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kibo-thomasphipps/oms_bronto_proto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kibo-thomasphipps/oms_bronto_proto/issues"
+  },
+  "homepage": "https://github.com/kibo-thomasphipps/oms_bronto_proto#readme",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}

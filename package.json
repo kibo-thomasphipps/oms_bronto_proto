@@ -7,6 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "dev": "nodemon ./lib/server",
     "start": "node ./lib/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +27,8 @@
     "express": "^4.17.2",
     "nodemailer": "^6.7.2",
     "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

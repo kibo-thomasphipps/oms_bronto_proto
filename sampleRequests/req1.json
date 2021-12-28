@@ -16,6 +16,7 @@
             "messageRuleId": "0bda03f90000000000000000000000001218",
             "fields": [
                 {
+
                     "name": "first_name",
                     "type": "html",
                     "content": "Test1"

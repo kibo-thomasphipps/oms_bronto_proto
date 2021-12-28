@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start":"node ./lib/server",
+    "start": "node ./lib/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +24,7 @@
     "body-parser": "^1.19.1",
     "chokidar": "^3.5.2",
     "express": "^4.17.2",
+    "nodemailer": "^6.7.2",
     "xml2js": "^0.4.23"
   }
 }
